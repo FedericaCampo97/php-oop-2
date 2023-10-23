@@ -1,7 +1,10 @@
 <?php
-
+require_once __DIR__ . '/../Traits/Namable.php';
 class Product
 {
+
+    use Namable;
+
     public $category;
     public function __construct($id, $name, $price, Category $category, $image, $short_description)
     {
@@ -24,10 +27,5 @@ class Product
     public function getImagePath(): string
     {
         return $this->image;
-    }
-
-    public function getPrice(): string
-    {
-        return '€' . $this->price;
     }
 }

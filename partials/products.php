@@ -4,7 +4,7 @@
             <h2>Products List</h2>
         </div>
     </div>
-    <div class="container">
+    <div class="container mb-3">
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <?php foreach ($products as $product) : ?>

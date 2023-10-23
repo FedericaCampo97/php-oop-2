@@ -14,7 +14,7 @@ include __DIR__ . '/layout/head.php';
 
     <div class="bg-main">
         <div class="container pt-5">
-            <h1 class="display-5 fw-bold text-white">Welcome to Our Pets Shop</h1>
+            <h1 class="display-5 fw-bold text-white">Welcome to the four-legged word!</h1>
 
             <p class="col-md-8 fs-4 mt-4 text-white">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
             <a href="./products.php" class="btn btn-primary btn-lg btn_shop" type="button">VAI ALLO SHOP</a>
